@@ -13,9 +13,9 @@ The restaurants are given similarity scores on the basis of its features ( using
 I used Yelp Restaurant Dataset for the engine : User_Review(u-r) and Business_Review(r-count) datasets followed by filtering of less popular restaurants and top 10 cities to reduce the data.The two dataset are transformed into sparse matrix and then using the KNN with Cosine Similarity b/w restaurants, it displays the most similar restaurants to any user input-restaurant. This is Item Based Filtering.
 
 Challenges:
-Popularity bias: refers to system recommends the movies with the most interactions without any personalization
-Item cold-start problem: refers to when movies added to the catalogue have either none or very little interactions while recommender rely on the movie’s interactions to make recommendations
-Scalability issue: refers to lack of the ability to scale to much larger sets of data when more and more users and movies added into our database
+Popularity bias: refers to system recommends the restros with the most interactions without any personalization
+Item cold-start problem: refers to when restros added to the catalogue have either none or very little interactions while recommender rely on the restros’s interactions to make recommendations
+Scalability issue: refers to lack of the ability to scale to much larger sets of data when more and more users and restros added into our database
 
 User Based Filtering :
 
